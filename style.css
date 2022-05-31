@@ -1,0 +1,57 @@
+.navbar {
+    margin: 20px 30px;
+    padding: 15px;
+}
+
+.navbar-brand {
+    position: relative;
+    left: 5%;
+}
+
+.navbar-nav {
+    position: relative;
+    left: 5%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.carousel {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    width: 800px;
+    margin: 30px auto;
+}
+
+.carousel-img{
+    width: 800px;
+    height: 530px;
+}
+
+.cardContainer {
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+    margin: -20px 10%;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.login {
+    position: relative;
+    margin-left: 5px;
+}
